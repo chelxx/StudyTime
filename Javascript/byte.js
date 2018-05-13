@@ -128,3 +128,10 @@ function rBS(arr, num) {
 }
 rBS([-90, -19, 0, 2, 12, 29, 33, 190, 320], 5);
 rBS([-90, -19, 0, 2, 12, 29, 33, 190, 320], 12);
+
+console.log("**********");
+
+// Bit Manipulation - WIP!
+
+// END OF BYTE OF COMPUTER SCIENCE
+// https://repl.it/@chelxx/JS-ByteofCompScience
