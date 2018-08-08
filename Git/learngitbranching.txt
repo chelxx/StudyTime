@@ -34,3 +34,10 @@ Force a branch:
     Notes: It's basically telling a branch where to go; In the example, the master branch will "travel" up by three(3)
     git branch -f master HEAD~3
 
+Reset:
+    Notes: Reverts changes by moving a branch reference backwards in time to an older commit. We're rewriting history (but only in local branches)!
+    git reset HEAD^
+
+Revert:
+    Notes: This will reverse changes and share those changes with others. This will create a new commit where you can push it.
+    git revert HEAD^
