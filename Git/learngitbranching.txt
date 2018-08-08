@@ -1,0 +1,36 @@
+WEBSITE: https://learngitbranching.js.org/
+
+Learn Git Branching
+--------------------
+Commit a change:
+    git commit -m "Type your message here"
+
+Create a new branch:
+    git branch <name>
+
+Checkout into a branch:
+    Notes: Checkout is when you switch to a branch
+    git checkout <branch_name>
+
+Merge a branch:
+    Notes: Make sure you're in the branch where it will "swallow" another branch
+    git merge <name_of_branch_you_want_to_merge>
+
+Rebase a branch:
+    Notes: Moving a sequence of commits to a new base commit; The <branch_name> you need to provide is the one you want to put INTO your current branch
+    git rebase <branch_name>
+
+Detach the HEAD:
+    Notes: It just means attaching the HEAD to a commit instead of a branch; The commit's hash is something like its ID
+    git checkout <commit_hash>
+
+Moving up in the branch:
+    Notes: We use the caret ^ tp signal we wanna go up by one(1); In my example, we are in the master branch, but we want to put the HEAD up by one
+    git checkout master^
+    Notes: We use the tilde ~ to specify how many times you "travel" up the branch; In my example, the HEAD will "travel" up by four(4)
+    git checkout HEAD~4
+
+Force a branch:
+    Notes: It's basically telling a branch where to go; In the example, the master branch will "travel" up by three(3)
+    git branch -f master HEAD~3
+
