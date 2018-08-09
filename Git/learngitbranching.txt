@@ -41,3 +41,8 @@ Reset:
 Revert:
     Notes: This will reverse changes and share those changes with others. This will create a new commit where you can push it.
     git revert HEAD^
+
+Cherry Pick:
+    Notes: Cherry picking is a way of copying a series of commits into your current location.
+    git cherry-pick <commit1> <commit2> <...>
+
