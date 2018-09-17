@@ -45,5 +45,3 @@ Revert:
 Cherry Pick:
     Notes: Cherry picking is a way of copying a series of commits into your current location.
     git cherry-pick <commit1> <commit2> <...>
-
-H
